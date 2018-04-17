@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- След. 3 тега должны быть первыми в head для нормальной работы бутстрапа -->
+		<meta charset="utf-8">
+   		<title>Steam WorkShop Lite</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+		
+		<link rel="stylesheet" href="styles/My_style.css" type="text/css">
+		
+
+	</head>
+	<body marginwidth="0px" marginheight="0">
+		
+	<div class="nav_table">
+		<div class="nav_row">
+			<div class="nav_cell-1">
+				<a href="http://store.steampowered.com/">
+					<img class="steam-logo" src="images/logo-steam.png" alt="logo">	
+				</a>
+			</div>
+			<div class="nav_cell-2">
+				<ul class="nav_menu">
+					<li class="unsign"><a href="http://store.steampowered.com/" style="text-decoration: none; color: #dfdfdf; font-size: 20px; padding-right: 5px;" >МАГАЗИН</a></li>
+						<ul class="nav_submenu"> 
+							<li><a href="http://store.steampowered.com/"><p>ПОПУЛЯРНОЕ</p></a></li>
+							<li><a href="http://store.steampowered.com/explore/"><p>ВВЕДЕНИЕ</p></a></li>
+							<li><a href="http://store.steampowered.com/curators/"><p>КУРАТОРЫ</p></a></li>
+							<li><a href="https://steamcommunity.com/my/wishlist/"><p>СПИСОК ЖЕЛАЕМОГО</p></a></li>
+							<li><a href="http://store.steampowered.com/news/"><p>НОВОСТИ</p></a></li>
+							<li><a href="http://store.steampowered.com/stats/"><p>СТАТИСТИКА</p></a></li>
+							
+						</ul>
+						
+					<li class="unsign"><a href="#" style="text-decoration: none; color: #dfdfdf; font-size: 20px; padding-right: 5px;">СООБЩЕСТВО</a></li>
+					<li class="unsign"><a href="http://store.steampowered.com/about/" style="text-decoration: none; color: #dfdfdf; font-size: 20px; padding-right: 5px;">О STEAM</a></li>
+					<li class="unsign"><a href="https://help.steampowered.com/ru/" style="text-decoration: none; color: #dfdfdf; font-size: 20px; padding-right: 5px;">ПОДДЕРЖКА</a></li>
+				</ul>
+			</div>
+			<div class="nav_cell-3">
+				<button class="downlBtn" style="float: left; margin-right: 10px;">
+					<a style="text-decoration: none; color: #dfdfdf;" href="http://store.steampowered.com/about/">
+					<input type="image" src="images/btn_download_steam.png">
+					Установить Steam
+				</button>
+				</a>
+				<a href="https://steamcommunity.com/login/home/?goto=app%2F253250%2Fworkshop%2F"><p style="margin-top:5px">Войти</p></a>
+			</div>					
+		</div>
+	</div>
+	
+	<div class="main_container">
+		<table class="game_info">
+			<tr >
+				<td style="width: 70%"><h1>Stonehearth</h1></td>
+				<td style="width: 30%;"> <!-- Здесь должна быть кнопка перехода на страницу магазина--></td>
+			</tr>
+		</table>
+		</br>
+		
+		<div class="table_2">
+			<div class="rows">
+				<div class="row-2-1">
+					<div class="row-2-1 cell">
+						<p>Все</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Обсуждения</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Скриншоты</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Иллюстрации</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Трансляции</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Видео</p>
+					</div>	
+					<div class="row-2-1 cell cell_active">
+						<p>Мастерская</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Новости</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Руководства</p>
+					</div>	
+					<div class="row-2-1 cell">
+						<p>Обзоры</p>
+					</div>	
+				</div>
+				<div class="row-2-2">
+					<div class="row-2-2 big-cell cell"> 
+
+					</div>
+					<div class ="row-2-2 cell text-cell">
+						<h1>Stonehearth Workshop Beta</h1>
+						<p>Discover, play, and share mods and creations that make Stonehearth even more engaging! This is the first (beta) version of Stonehearth Workshop. Coming soon: building templates.</p>
+						<a>Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<p style="font-style: 22px normal"><a href="#" style="text-decoration: none">Самые популярные работы</a> за последнюю неделю </p>
+		<br>
+
+		
+		<!-- Моя карусель -->
+		<div style="width:50%; height: 300px; position: relative">
+			<img class="carousel" src="images/carousel/1.jpg" style="width:100%; height: 100%; position: absolute;">
+			<div class="left" style="width:10%; height: 100%; background: #CC1114; position: absolute; top:0; cursor: pointer;"></div>
+			<div class="right" style="width:10%; height: 100%; background: #CC1114; position: absolute; top:0; right: 0; cursor: pointer;"></div>
+		</div>
+		
+		</div>
+	</body>
+</html>	
+<script src="js/script.js"></script> 
